@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/backcolor"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+    </android.support.v7.widget.GridLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:color/background_dark" />
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/background_light"
+        android:padding="8dp"
+        android:paddingBottom="48dp"
+        app:layout_columnSpan="7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.19999999"
+        app:layout_rowSpan="3">
+
+        <FrameLayout
+            android:id="@+id/flame00"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="0"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView00"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="0"
+                app:layout_rowSpan="0" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="1"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="1"
+                app:layout_row="0" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="2"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="2"
+                app:layout_row="0" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="3"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="3"
+                app:layout_row="0" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="4"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="4"
+                app:layout_row="0" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="5"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="5"
+                app:layout_row="0" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="6"
+            app:layout_row="0">
+
+            <ImageView
+                android:id="@+id/back06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="6"
+                app:layout_row="0" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="0"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="0"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="1"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="1"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="2"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="2"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="3"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="3"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="4"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="4"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="5"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="5"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="6"
+            app:layout_row="1">
+
+            <ImageView
+                android:id="@+id/back16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="6"
+                app:layout_row="1" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="0"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="0"
+                app:layout_row="2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="1"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="1"
+                app:layout_row="2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="2"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="2"
+                app:layout_row="2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="3"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="3"
+                app:layout_row="2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="4"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="4"
+                app:layout_row="2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="5"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="5"
+                app:layout_row="2" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/flame26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_column="6"
+            app:layout_row="2">
+
+            <ImageView
+                android:id="@+id/back26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/grid" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/grid"
+                app:layout_column="6"
+                app:layout_row="2" />
+        </FrameLayout>
+
+
+    </android.support.v7.widget.GridLayout>
+
+    <Button
+        android:id="@+id/up"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="moveUp"
+        android:text="▲"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.668" />
+
+    <Button
+        android:id="@+id/select"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="push"
+        android:text="●"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/right"
+        android:layout_width="50dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="moveRight"
+        android:text="▶︎"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.199"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <Button
+        android:id="@+id/left"
+        android:layout_width="50dp"
+        android:layout_height="130dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="moveLeft"
+        android:text="◀︎"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.038"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.927" />
+
+    <Button
+        android:id="@+id/down"
+        android:layout_width="50dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="moveDown"
+        android:text="▼"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.119"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.948" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/selectview"
+        android:layout_width="7dp"
+        android:layout_height="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+    </android.support.constraint.ConstraintLayout>
+
+
+</android.support.constraint.ConstraintLayout>

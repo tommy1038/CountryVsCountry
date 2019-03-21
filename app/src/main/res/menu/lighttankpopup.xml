@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/item01" android:title="情報"></item>
+    <item android:id="@+id/item02" android:title="移動"></item>
+    <item android:id="@+id/item03" android:title="ターン終了"></item>
+</menu>
